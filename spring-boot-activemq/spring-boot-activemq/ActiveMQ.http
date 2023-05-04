@@ -1,0 +1,19 @@
+POST http://localhost:8084/producer/sendToQueue
+Content-Type: application/json
+
+{
+  "fname": "Omer",
+  "lname": "ATAS",
+  "salary": 100.00,
+  "age": 23
+}
+
+###
+POST http://localhost:8084/producer/sendToTopic
+Content-Type: application/json
+
+{
+  "deptId": 1,
+  "deptName": "ARGE",
+  "noOfEmployees": 7
+}
